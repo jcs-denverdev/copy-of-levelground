@@ -204,9 +204,7 @@ header nav div {
 /******************************************
 /* FOOTER
 /*******************************************/ 
-main {
-  display: none;
-}
+
 footer {
   background-color: var(--bg-footer-color);
   color: white;
@@ -217,8 +215,7 @@ footer {
 
 .footer_left {
   float: left;
-  width: 30%;
-  background-color: coral;
+  width: 20%;
 }
 
 .footer_left .img-container {
@@ -230,30 +227,34 @@ footer {
 .fa-solid {
   color: white;
   float: left;
-  width: 33.3%;
-  border: 1px solid white;
+  width: 30%;
+  font-size: 3em;
 }
 
 .footer_left h5 {
-  margin: 1.5em 0 .5em 0;
-  font-size: 1.2em;
+  margin: 3.5em 0 .5em 0;
+  font-size: 1.3em;
   color: var(--bg-primary-color);
 }
 
+.footer_left h5 + span + span + h5 {
+  margin-top: 1.5em;
+}
+
 .footer_left span {
-  font-size: 1.1em;
-  margin-right: 15px;
+  font-size: 1.2em;
+  margin-right: 20px;
 }
 
 .footer_right {
   float: right;
   width: 30%;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
-.footer_right h5 {
+.footer_right h4 {
   margin: 0;
-  font-size: 1.3em;
+  font-size: 1.5em;
   font-weight: bold;
 }
 
@@ -264,6 +265,7 @@ footer {
 .footer_right a {
   display: block;
   font-weight: bold;
+  font-size: 1.3em;
 }
 
 .footer_bottom {
@@ -271,10 +273,12 @@ footer {
   float: left;
   width: 100%;
   padding: 0 15px;
+  margin-top: 1em;
 }
 
 .footer_bottom p {
   float: left;
+  padding-top: .5em;
 }
 
 .footer_bottom img {
