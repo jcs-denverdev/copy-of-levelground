@@ -222,20 +222,27 @@ footer {
 }
 
 .footer_left .img-container {
-  background-color: black;
   float: left;
+  width: 100%;
 }
 
-.footer_left img {
-  width: 30%;
+.fa-brands,
+.fa-solid {
+  color: white;
+  float: left;
+  width: 33.3%;
+  border: 1px solid white;
 }
 
 .footer_left h5 {
-  background-color: aquamarine;
+  margin: 1.5em 0 .5em 0;
+  font-size: 1.2em;
+  color: var(--bg-primary-color);
 }
 
 .footer_left span {
-  background-color: antiquewhite;
+  font-size: 1.1em;
+  margin-right: 15px;
 }
 
 .footer_right {
