@@ -221,6 +221,23 @@ footer {
   background-color: coral;
 }
 
+.footer_left .img-container {
+  background-color: black;
+  float: left;
+}
+
+.footer_left img {
+  width: 30%;
+}
+
+.footer_left h5 {
+  background-color: aquamarine;
+}
+
+.footer_left span {
+  background-color: antiquewhite;
+}
+
 .footer_right {
   float: right;
   width: 30%;
