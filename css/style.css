@@ -224,7 +224,6 @@ footer {
 .footer_right {
   float: right;
   width: 30%;
-  background-color: rgb(255, 205, 80);
   margin-left: 20px;
 }
 
@@ -234,6 +233,14 @@ footer {
   font-weight: bold;
 }
 
+.footer_right span {
+  font-size: 1.2em;
+}
+
+.footer_right a {
+  display: block;
+  font-weight: bold;
+}
 
 .footer_bottom {
   border-top: 2px solid white;
