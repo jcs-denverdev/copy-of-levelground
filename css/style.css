@@ -215,18 +215,17 @@ footer {
   padding: 1em;
 }
 
-.footer_left, .footer_right {
-  width: 50%;
-}
-
 .footer_left {
   float: left;
+  width: 30%;
   background-color: coral;
 }
 
 .footer_right {
   float: right;
+  width: 30%;
   background-color: rgb(255, 205, 80);
+  margin-left: 20px;
 }
 
 .footer_right h5 {
