@@ -229,6 +229,13 @@ footer {
   background-color: rgb(255, 205, 80);
 }
 
+.footer_right h5 {
+  margin: 0;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+
 .footer_bottom {
   border-top: 2px solid white;
   float: left;
