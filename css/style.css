@@ -221,14 +221,27 @@ footer {
 
 .footer_left {
   float: left;
+  background-color: coral;
 }
 
 .footer_right {
   float: right;
+  background-color: rgb(255, 205, 80);
 }
 
 .footer_bottom {
   border-top: 2px solid white;
   float: left;
   width: 100%;
+  background-color: rgb(80, 153, 255);
+  
+}
+
+.footer_bottom p {
+  float: left;
+}
+
+.footer_bottom img {
+  float: right;
+  width: 20px;
 }
