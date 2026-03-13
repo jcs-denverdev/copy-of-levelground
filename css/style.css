@@ -204,7 +204,9 @@ header nav div {
 /******************************************
 /* FOOTER
 /*******************************************/ 
-
+main {
+  display: none;
+}
 footer {
   background-color: var(--bg-footer-color);
   color: white;
