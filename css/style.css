@@ -197,7 +197,7 @@ header nav div {
 
 .volunteer p {
   font-size: 1.3em;
-  margin: 0 4em 3em 4em;
+  margin: 0 3em 3em 3em;
   padding: 0 5em;
 }
 
@@ -206,8 +206,27 @@ header nav div {
 /*******************************************/ 
 
 footer {
-  background-color: rgb(31, 36, 46);
+  background-color: var(--bg-footer-color);
   color: white;
   float: left;
   width: 100%;
-}  
+  padding: 1em;
+}
+
+.footer_left, .footer_right {
+  width: 50%;
+}
+
+.footer_left {
+  float: left;
+}
+
+.footer_right {
+  float: right;
+}
+
+.footer_bottom {
+  border-top: 2px solid white;
+  float: left;
+  width: 100%;
+}
