@@ -182,18 +182,23 @@ header nav div {
   padding: 1em;
 }
 
-.float50 button {
-  
-}
-
 /******************************************
 /* VOLUNTEER
 /*******************************************/
 
 .volunteer {
   float: left;
-  /* width: 80%; */
-  /* margin: 3em auto; */
+  padding: 4em;
+}
+
+.volunteer h2 {
+  font-size: 2em;
+}
+
+.volunteer p {
+  font-size: 1.3em;
+  margin: 0 4em 3em 4em;
+  padding: 0 5em;
 }
 
 /******************************************
