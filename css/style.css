@@ -42,7 +42,7 @@ button, .volunteer h2 {
 }
 
 button {
-  padding: 15px;
+  padding: 15px 30px;
   background: none;
   border: 1px solid var(--txt-primary-color);
 }
@@ -162,21 +162,29 @@ header nav div {
 .float50 {
   float: left;
   width: 50%;
-  padding: 4em;
+  padding: 4em 0;
 }
 
 .blue-square {
-  height: 100px;
-  width: 180px;
+  height: 150px;
+  width: 280px;
   border: none;
   margin: 1em auto;
 }
 
-.visit-section .float50 span {
+.float50 span {
   color: var(--txt-primary-color);
   font-weight: 800;
+  font-size: 1.2em;
 }
 
+.float50 p {
+  padding: 1em;
+}
+
+.float50 button {
+  
+}
 
 /******************************************
 /* VOLUNTEER
