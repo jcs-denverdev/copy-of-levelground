@@ -142,7 +142,7 @@ header nav div {
 .why-section p {
   font-size: 1.3em;
   margin: 0 5em;
-  padding: 0 10em;
+  padding: 0 5em;
 }
 
 /******************************************
@@ -183,6 +183,7 @@ header nav div {
 /*******************************************/
 
 .volunteer {
+  float: left;
   /* width: 80%; */
   /* margin: 3em auto; */
 }
@@ -191,8 +192,9 @@ header nav div {
 /* FOOTER
 /*******************************************/ 
 
-/* footer {
+footer {
   background-color: rgb(31, 36, 46);
   color: white;
   float: left;
-}   */
+  width: 100%;
+}  
