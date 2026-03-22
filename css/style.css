@@ -111,20 +111,20 @@ header nav div {
 }
 
 .vid-container {
-  border: 1px solid white;
-  margin: 2em;
+  margin: 2em auto;
+  width: 100%;
   /* float: none; */
 }
 
 .vid-container img {
-  width: 50px;
-  /* margin: 0 auto; */
+  width: 7%;
 }
 
 .vid-container h6 {
-  margin: 0;
   display: inline-block;
+  vertical-align: middle;
   font-size: 1.1em;
+  margin: 0 0 3.2em 0; /* vertically aligned i guess */
 }
 
 /******************************************
