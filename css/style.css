@@ -58,7 +58,7 @@ button {
 header {
   float: left;
   width: 100%;
-  height: 65px;
+  /* height: 65px; */
 }
 
 header nav div {
@@ -66,20 +66,19 @@ header nav div {
   color: white;
   font-size: 1em;
   width: 33.33%;
-  height: 65px;
 }
 
 .header_left span {
   float: left;
   font-size: 1.1em;
-  padding: 1.2em;
+  padding: 1.5em;
   font-weight: 600;
 }
 
 .header_center img {
   width: 40px;
   display: block;
-  margin: .2em auto;
+  margin: .5em auto;
 }
 
 .header_right button {
@@ -87,7 +86,7 @@ header nav div {
   border: none;
   border-radius: 5px;
   padding: 10px;
-  margin: 1.2em 2em;
+  margin: 1.4em 2em;
   background-color: white;
   float: right;
 }
@@ -96,30 +95,37 @@ header nav div {
 /* INTRO
 /*******************************************/
 
+.intro {
+  padding: 4em;
+  color: white;
+}
+
 .intro h1 {
   font-size: 2.8em;
   font-weight: 600;
 }
 
 .intro p {
-  line-height: 1.3em;
+  line-height: 1.5em;
   font-size: 1.2em;
 }
 
-/* .img-container {
-  width: 50%;
-  margin: 0 auto;
-  background-color: blanchedalmond;
+.vid-container {
+  border: 1px solid white;
+  margin: 2em;
+  /* float: none; */
 }
 
-.img-container img {
-  width: 40px;
-  margin: 0 auto;
+.vid-container img {
+  width: 50px;
+  /* margin: 0 auto; */
 }
 
-.img-container span {
-  
-} */
+.vid-container h6 {
+  margin: 0;
+  display: inline-block;
+  font-size: 1.1em;
+}
 
 /******************************************
 /* WHY - WHITE
