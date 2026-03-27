@@ -140,15 +140,13 @@ header nav div {
 }
 
 .center {
-  float: left;
-  background-color: bisque;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 
 .float50 {
   float: left;
-  /* width: 50%; */
+  width: 50%;
   padding: 4em;
 }
 
