@@ -30,12 +30,32 @@ body {
   --txt-primary-color: rgb(24,31,41);
 }
 
+.header_left, .header_right,
+main h1, .why-section h2,
+.visit-section .float50 span,
+button, .volunteer h2 {
+  text-transform: uppercase;
+}
+
+.bg_primary {
+  background-color: var(--bg-primary-color);
+}
+
+button {
+  padding: 15px;
+  background: none;
+  border: 1px solid var(--txt-primary-color);
+}
+
+.center-txt {
+  text-align: center;
+}
+
 /******************************************
 /* HEADER
 /*******************************************/
 
 header {
-  background-color: var(--bg-primary-color);
   float: left;
   width: 100%;
   height: 65px;
@@ -48,13 +68,6 @@ header nav div {
   width: 33.33%;
   height: 65px;
   border: 1px solid black;
-}
-
-.header_left, .header_right,
-main h1, .why-section h2,
-.visit-section .float50 span,
-button, .volunteer h2 {
-  text-transform: uppercase;
 }
 
 .header_left span {
@@ -81,23 +94,15 @@ button, .volunteer h2 {
 }
 
 /******************************************
-/* MAIN
+/* INTRO
 /*******************************************/
 
-main {
-  background-color: var(--bg-primary-color);
-  color: white;
-  text-align: center;
-  padding: 100px;
-}
-
-main h1 {
+.intro h1 {
   font-size: 2.8em;
   font-weight: 600;
-  letter-spacing: .03em;
 }
 
-main p {
+.intro p {
   line-height: 1.3em;
   font-size: 1.2em;
 }
@@ -121,11 +126,6 @@ main p {
 /* WHY - WHITE
 /*******************************************/
 
-.center {
-  text-align: center;
-  padding: 90px 150px;
-}
-
 .why-section h2 {
   font-size: 2em;
 }
@@ -136,33 +136,32 @@ main p {
 
 .visit-section {
   background-color: var(--bg-secondary-color);
-  text-align: center;
   float: left;
 }
 
+.center {
+  float: left;
+  background-color: bisque;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.float50 {
+  float: left;
+  /* width: 50%; */
+  padding: 4em;
+}
+
 .blue-square {
-  background-color: var(--bg-primary-color);
   height: 100px;
   width: 180px;
   border: none;
   margin: 1em auto;
 }
 
-.float50 {
-  float: left;
-  width: 50%;
-  padding: 4em;
-}
-
 .visit-section .float50 span {
   color: var(--txt-primary-color);
   font-weight: 800;
-}
-
-button {
-  padding: 15px;
-  background: none;
-  border: 1px solid var(--txt-primary-color);
 }
 
 
@@ -173,7 +172,6 @@ button {
 .volunteer {
   /* width: 80%; */
   /* margin: 3em auto; */
-  text-align: center;
 }
 
 /******************************************
