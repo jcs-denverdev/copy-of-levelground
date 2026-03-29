@@ -112,7 +112,7 @@ main p {
 /* WHY - WHITE
 /*******************************************/
 
-.why-section {
+.center {
   text-align: center;
   padding: 90px 150px;
 }
@@ -151,7 +151,7 @@ main p {
   font-weight: 800;
 }
 
-.visit-section button {
+button {
   padding: 15px;
   background: none;
   border: 1px solid var(--txt-primary-color);
@@ -163,7 +163,11 @@ main p {
 /* VOLUNTEER
 /*******************************************/
 
-
+.volunteer {
+  width: 80%;
+  margin: 3em auto;
+  text-align: center;
+}
 
 /******************************************
 /* FOOTER
