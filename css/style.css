@@ -136,14 +136,25 @@ main p {
   height: 100px;
   width: 180px;
   border: none;
+  margin: 1em auto;
 }
 
 .float50 {
   float: left;
   width: 50%;
+  padding: 4em;
 }
 
 .visit-section .float50 span {
+  text-transform: uppercase;
+  color: var(--txt-primary-color);
+  font-weight: 800;
+}
+
+.visit-section button {
+  padding: 15px;
+  background: none;
+  border: 1px solid var(--txt-primary-color);
   text-transform: uppercase;
 }
 
@@ -152,25 +163,14 @@ main p {
 /* VOLUNTEER
 /*******************************************/
 
-.volunteer {
-  padding: 100px 450px;
-}
 
-button {
-  border: 1px solid black;
-}
-
-hr {
-  border: 1px solid white;
-  width: 90%;
-}
 
 /******************************************
 /* FOOTER
 /*******************************************/ 
 
-footer {
+/* footer {
   background-color: rgb(31, 36, 46);
   color: white;
   float: left;
-}  
+}   */
