@@ -114,7 +114,7 @@ main p {
 
 .why-section {
   text-align: center;
-  padding: 100px;
+  padding: 90px 150px;
 }
 
 .why-section h2 {
@@ -125,23 +125,28 @@ main p {
 /* VISIT
 /*******************************************/
 
-/* .split-section section {
-  float: left;
-  width: 50%;
-  padding: 100px;
-}
-
-section + section {
-  float: left;
+.visit-section {
   background-color: var(--bg-secondary-color);
   text-align: center;
-} */
-
-/* section + section + section {
-  background: none;
-  color: black;
   float: left;
-} */
+}
+
+.blue-square {
+  background-color: var(--bg-primary-color);
+  height: 100px;
+  width: 180px;
+  border: none;
+}
+
+.float50 {
+  float: left;
+  width: 50%;
+}
+
+.visit-section .float50 span {
+  text-transform: uppercase;
+}
+
 
 /******************************************
 /* VOLUNTEER
