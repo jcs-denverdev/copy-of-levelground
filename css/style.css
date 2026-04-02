@@ -84,6 +84,8 @@ main {
 main h1 {
   text-transform: uppercase;
   font-size: 2.8em;
+  font-weight: 600;
+  letter-spacing: .03em;
 }
 
 main p {
@@ -91,20 +93,39 @@ main p {
   font-size: 1.2em;
 }
 
+/* .img-container {
+  width: 50%;
+  margin: 0 auto;
+  background-color: blanchedalmond;
+}
+
+.img-container img {
+  width: 40px;
+  margin: 0 auto;
+}
+
+.img-container span {
+  
+} */
+
 /******************************************
 /* WHY - WHITE
 /*******************************************/
 
 .why-section {
   text-align: center;
-  padding: 50px 450px;
+  padding: 100px;
+}
+
+.why-section h2 {
+  font-size: 2em;
 }
 
 /******************************************
 /* VISIT
 /*******************************************/
 
-.split-section section {
+/* .split-section section {
   float: left;
   width: 50%;
   padding: 100px;
@@ -112,15 +133,15 @@ main p {
 
 section + section {
   float: left;
-  background-color: rgb(219, 222, 225);
+  background-color: var(--bg-secondary-color);
   text-align: center;
-}
+} */
 
-section + section + section {
+/* section + section + section {
   background: none;
   color: black;
   float: left;
-}
+} */
 
 /******************************************
 /* VOLUNTEER
