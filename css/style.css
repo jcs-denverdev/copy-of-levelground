@@ -45,8 +45,13 @@ header nav div {
   width: 33.33%;
 }
 
-.header_left {
-  border: 1px solid white;
+
+
+.header_left span {
+  display: block;
+  float: left;
+  margin: 1em 2em;
+  text-transform: uppercase;
 }
 
 .header_center img {
@@ -76,17 +81,6 @@ main {
   padding: 100px;
 }
 
-h1 {
-  font-size: 50px;
-}
-
-main a {
-  color: white;
-}
-
-main img {
-  width: 3%;
-}
 
 /******************************************
 /* WHY - WHITE
