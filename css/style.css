@@ -1,121 +1,143 @@
 /* Box Model Hack */
 * {
-    box-sizing: border-box;
-  }
-  
-  /* Clear fix hack */
-  .clearfix:after {
-       content: ".";
-       display: block;
-       clear: both;
-       visibility: hidden;
-       line-height: 0;
-       height: 0;
-  }
-  
-  .clear {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+      content: ".";
+      display: block;
       clear: both;
-  }
-  
-  /******************************************
-  /* BASE STYLES
-  /*******************************************/
-  
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  /******************************************
-  /* LAYOUT
-  /*******************************************/
-  
-  header nav {
-    width: 100%;
-    float: left;
-    
-  }
+      visibility: hidden;
+      line-height: 0;
+      height: 0;
+}
 
-  header nav > a {
-    float: left;
-    margin: 15px 0 0 30px;
-    text-decoration: none;
-    color: white;
-    font-size: 12px;
-  }
+.clear {
+    clear: both;
+}
 
-  header nav img {
-    width: 3%;
-    margin-left: 35%;
-    float: left;
-  }
+/******************************************
+/* BASE STYLES
+/*******************************************/
 
-  header nav button {
-    color: rgb(107, 118, 136);
-    border: none;
-    border-radius: 5%;
-    padding: 8px 6px;
-    margin: 15px 40px;
-    background-color: white;
-    float: right;
-  }
-  
-  main {
-    background-color: rgb(107, 118, 136);
-    color: white;
-    text-align: center;
-    padding: 100px;
-  }
-  
-  h1 {
-    font-size: 50px;
-  }
-  
-  main a {
-    color: white;
-  }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  --bg-primary-color: rgb(107, 118, 136);
+  --bg-secondary-color: rgb(220,223,226);
+  --bg-footer-color: rgb(24,31,41);
+  --txt-primary-color: rgb(24,31,41);
+}
 
-  main img {
-    width: 3%;
-  }
+/******************************************
+/* HEADER
+/*******************************************/
 
-  .why-section {
-    text-align: center;
-    padding: 50px 450px;
-  }
+header {
   
-  .split-section section {
-    float: left;
-    width: 50%;
-    padding: 100px;
-  }
+}
 
-  section + section {
-    float: left;
-    background-color: rgb(219, 222, 225);
-    text-align: center;
-  }
-  
-  section + section + section {
-    background: none;
-    color: black;
-    float: left;
-  }
-  
-  .volunteer {
-    padding: 100px 450px;
-  }
+header nav > a {
+  float: left;
+  margin: 15px 0 0 30px;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
 
-  button {
-    border: 1px solid black;
-  }
-  
-  hr {
-    border: 1px solid white;
-    width: 90%;
-  }
-  
-  footer {
-    background-color: rgb(31, 36, 46);
-    color: white;
-    float: left;
-  }  
+header nav img {
+  width: 3%;
+  margin-left: 35%;
+  float: left;
+}
+
+header nav button {
+  color: rgb(107, 118, 136);
+  border: none;
+  border-radius: 5%;
+  padding: 8px 6px;
+  margin: 15px 40px;
+  background-color: white;
+  float: right;
+}
+
+/******************************************
+/* MAIN
+/*******************************************/
+
+main {
+  background-color: rgb(107, 118, 136);
+  color: white;
+  text-align: center;
+  padding: 100px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+main a {
+  color: white;
+}
+
+main img {
+  width: 3%;
+}
+
+/******************************************
+/* WHY - WHITE
+/*******************************************/
+
+.why-section {
+  text-align: center;
+  padding: 50px 450px;
+}
+
+/******************************************
+/* VISIT
+/*******************************************/
+
+.split-section section {
+  float: left;
+  width: 50%;
+  padding: 100px;
+}
+
+section + section {
+  float: left;
+  background-color: rgb(219, 222, 225);
+  text-align: center;
+}
+
+section + section + section {
+  background: none;
+  color: black;
+  float: left;
+}
+
+/******************************************
+/* VOLUNTEER
+/*******************************************/
+
+.volunteer {
+  padding: 100px 450px;
+}
+
+button {
+  border: 1px solid black;
+}
+
+hr {
+  border: 1px solid white;
+  width: 90%;
+}
+
+/******************************************
+/* FOOTER
+/*******************************************/ 
+
+footer {
+  background-color: rgb(31, 36, 46);
+  color: white;
+  float: left;
+}  
