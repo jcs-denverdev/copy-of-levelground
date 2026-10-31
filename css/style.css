@@ -45,13 +45,12 @@ header nav div {
   width: 33.33%;
 }
 
-
-
 .header_left span {
   display: block;
   float: left;
   margin: 1em 2em;
   text-transform: uppercase;
+  font-weight: 600;
 }
 
 .header_center img {
@@ -62,10 +61,11 @@ header nav div {
 
 header nav button {
   color: var(--bg-primary-color);
+  text-transform: uppercase;
   border: none;
-  border-radius: 5%;
-  padding: 8px 6px;
-  margin: 15px 40px;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 1.5em;
   background-color: white;
   float: right;
 }
