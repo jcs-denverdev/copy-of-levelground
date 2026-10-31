@@ -35,7 +35,9 @@ body {
 /*******************************************/
 
 header {
-  background-color: var(--bg-primary-color);
+  background-color: var(--bg-secondary-color);
+  float: left;
+  width: 100%;
 }
 
 header nav div {
@@ -164,8 +166,8 @@ button {
 /*******************************************/
 
 .volunteer {
-  width: 80%;
-  margin: 3em auto;
+  /* width: 80%; */
+  /* margin: 3em auto; */
   text-align: center;
 }
 
