@@ -59,7 +59,7 @@ header nav div {
   margin: 1em auto;
 }
 
-header nav button {
+.header_right button {
   color: var(--bg-primary-color);
   text-transform: uppercase;
   border: none;
@@ -75,12 +75,21 @@ header nav button {
 /*******************************************/
 
 main {
-  background-color: rgb(107, 118, 136);
+  background-color: var(--bg-primary-color);
   color: white;
   text-align: center;
   padding: 100px;
 }
 
+main h1 {
+  text-transform: uppercase;
+  font-size: 1.8em;
+}
+
+main p {
+  line-height: 1.3em;
+  font-size: 1.2em;
+}
 
 /******************************************
 /* WHY - WHITE
